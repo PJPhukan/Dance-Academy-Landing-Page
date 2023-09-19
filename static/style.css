@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  overflow-x: hidden;
+  color: white;
+}
+
+#navber {
+  background-color: rgb(49, 47, 47);
+  position: fixed;
+  width: 100vw;
+  font-family: 'Lilita One', cursive;
+}
+
+#navber ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ul li {
+  margin: 1rem .5rem;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+section {
+  background: url(../static/dance.jpg) no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  width: 40vw;
+  margin-left: 6rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  text-shadow: 0.5rem 0.5rem 0.5rem black;
+
+}
+
+.box .heading {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0.5rem 0.5rem 0.5rem black;
+  font-family: 'Lilita One';
+}
+
+.sub_heading {
+  font-size: 2rem;
+  font-family: 'Righteous', cursive;
+}
+
+
+.box .p_heading {
+  font-family: 'Righteous', cursive;
+  font-size: 1rem;
+  color: black;
+  text-shadow: 0 0rem 0.4rem white;
+}
+
+.about_box {
+  display: flex;
+  justify-content: center;
+  margin-left: 6rem;
+  width: 90%;
+  height: 100vh;
+  align-items: center;
+  color: black;
+  font-family: 'Righteous', cursive;
+}
+
+.img img {
+  width: 20rem;
+  border-radius: .8rem;
+}
+
+.about_text {
+  margin: 3rem;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+    1px 1px 0 black,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.nav_heading {
+  font-size: 3rem;
+}
+
+.paragraph {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+
+.album_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6rem;
+  width: 90%;
+  height: 100vh;
+  color: white;
+  text-shadow: -2px 2px 0 #000,
+    2px 2px 0 black,
+    2px -2px 0 #000,
+    -2px -2px 0 #000;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #595858ad;
+  border: 1px solid white;
+  border-radius: 1rem;
+  margin: 1rem 2rem;
+  color: white;
+  text-shadow: -2px 2px 0 #000,
+    2px 2px 0 black,
+    2px -2px 0 #000,
+    -2px -2px 0 #000;
+  font-family: 'Righteous', cursive;
+}
+
+.card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.card_tittle {
+  font-size: 1.5rem;
+  margin: 1rem .5rem;
+}
+
+.card-box img {
+  height: 10rem;
+  padding: .4rem;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0rem;
+  font-size: 1rem;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.osp,
+.cb {
+  margin-top: 5rem;
+}
+
+.sponsers-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  height: 100vh;
+  text-shadow: -2px 2px 0 #000,
+    2px 2px 0 black,
+    2px -2px 0 #000,
+    -2px -2px 0 #000;
+  font-family: 'Righteous', cursive;
+}
+
+.sponsers-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  background-color: #595858ad;
+}
+
+.sponsers-img img {
+  margin: .5rem 1rem;
+}
+
+.sponsers-img img:nth-child(1) {
+  /* filter: invert(black); */
+  width: 13rem;
+}
+
+.sponsers-img img:nth-child(2) {
+  width: 16rem;
+}
+
+.sponsers-img img:nth-child(3) {
+  width: 14rem;
+}
+
+.sponsers-img img:nth-child(4) {
+  width: 14rem;
+}
+
+.sponsers-img img:nth-child(5) {
+  width: 11rem;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 6rem;
+  width: 90%;
+  height: 100vh;
+  text-shadow: -2px 2px 0 #000,
+    2px 2px 0 black,
+    2px -2px 0 #000,
+    -2px -2px 0 #000;
+  font-family: 'Righteous', cursive;
+}
+
+.contact-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  margin: 1rem auto;
+}
+
+.contact-detail img {
+  width: 80%;
+}
+
+.c-details {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  color: white;
+  margin-top: 1rem;
+}
+
+input:focus {
+  outline: none;
+
+}
+
+.btn {
+  margin: 1rem 1rem;
+  padding: .5rem 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: .8rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: black;
+  font-family: 'Righteous', cursive;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+
+}
+
+.myInput {
+
+  padding: 1rem;
+  margin: .5rem 1rem;
+  width: 100%;
+  background-color: #87929b6b;
+  box-shadow: 0.1rem 0.1rem 0.5rem white;
+  font-family: 'Righteous', cursive;
+  color: white;
+  border-radius: 1rem;
+}
+
+
+.footer {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 1.5rem;
+  font-family: 'Righteous', cursive;
+  text-shadow: -2px 2px 0 #000,
+    2px 2px 0 black,
+    2px -2px 0 #000,
+    -2px -2px 0 #000;
+}

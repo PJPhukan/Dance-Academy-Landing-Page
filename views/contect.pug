@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/humberger.css
+block contact 
+    section#contact 
+        div.contact-box 
+             h2.sub_heading.nav_heading.cb Contact Us
+             div.contact-detail 
+                img(src="../static/img/contact.png", alt="")
+                div.c-details 
+                    form(action="/contect", method="post" class="form paragraph")
+                        input(type="text" class="myInput" placeholder="Enter Your Name" name="name" class="paragraph") 
+                        input(type="email" class="myInput" placeholder="Enter Your Email" name="email" class="paragraph") 
+                        input(type="phone" class="myInput" placeholder="Enter Your Number" name="ph_number" class="paragraph") 
+                        input(type="age" class="myInput" placeholder="Enter Your Age" name="age" class="paragraph") 
+                        input(type="text" class="myInput" placeholder="Enter Your Adress" name="address" class="paragraph") 
+                        button(type="submit" class='btn') Submit

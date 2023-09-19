@@ -1,0 +1,24 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Mindys Dance Academy
+    block scripts
+    block style 
+    link(rel="stylesheet", href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css")
+
+  
+      
+  body
+     nav#navber 
+        //- i.bx.bx-menu#box-icon
+        ul.navber_menu 
+            li #[a(href= "/") Home]
+            li #[a(href= "/") About ]
+            li #[a(href= "#album") Our Misson ]
+            li #[a(href= "/") Our Sponsers ]
+            li #[a(href= "/contect") Contact]
+
+block content
+block contact
+footer.footer Copyright&copy Act 2023 MindysDanceAcademy.com 

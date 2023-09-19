@@ -1,0 +1,68 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+  script(src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js") 
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/humberger.css
+
+
+block content 
+   
+
+    section#home 
+        div.box
+            h1.heading THE MINDY'S DANCE ACADEMY
+            h2.sub_heading  LET's 
+            h2.sub_heading   DANCE
+            h4.p_heading Providing a space for danceres to  train,perfrom and explore movement for over twenty years
+    section#about 
+        div.about_box 
+            div.img 
+                img(src='../static/dance_building.webp')
+            div.about_text
+                h2.sub_heading.nav_heading About
+                p.paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nostrum beatae consequuntur, repellat aspernatur deleniti, tempora culpa ex dolor possimus voluptatum et nue dolorem culpa rerum amet quia similique, fugit qui minima in necessitatibus? Inventore, eius aut sequi rem nostrum alias nihil architecto explicabo id eos consectetur fugiat asperiores ducimus quas ipsa harum quod hic, saepe corrupti in ut quisquam. Nostrum voluptas molestiae nisi possimus. Et quo aut eos maxime hic? Nam voluptatum facere nisi ex, masperiores? Necessitatibus rem vitae voluptas est voluptatum inventore totam? Deserunt praesentium ut veniam at quisquam officiis doloribus, saepe quos nisi unde, iusto ducimus quam quod vitae, magnam dolores facere! Illo quod quisquam natus molestias adipisci.
+    section#album 
+        div.album_box 
+            h2.sub_heading.nav_heading Our Mission
+            div.card-flex
+                div.card 
+                    h3.card_tittle Dance Perfection 
+                    div.card-box 
+                        img(src="../static/img/1.png", alt="")
+                        h4.p_heading.card-text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, expedita?lorem10
+
+
+
+                div.card 
+                    h3.card_tittle Dance The Way You Like 
+                    div.card-box 
+                        img(src="../static/img/2.png", alt="")
+                        h4.p_heading.card-text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, expedita?lorem10
+
+
+
+
+                div.card 
+                    h3.card_tittle Expert Training
+                    div.card-box 
+                        img(src="../static/img/3.png", alt="")
+                        h4.p_heading.card-text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, expedita?lorem10
+               
+
+    section#sponsers 
+        div.sponsers-box 
+            h2.sub_heading.nav_heading.osp Our Sponsers
+            div.sponsers-img 
+                img(src="../static/img/apple.png", alt="")
+                img(src="../static/img/figma.png", alt="")
+                img(src="../static/img/instragram.png", alt="")
+                img(src="../static/img/twitter.png", alt="")
+                img(src="../static/img/youtube.png", alt="")
+        
+
+       
